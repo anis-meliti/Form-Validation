@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Form Validation</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./styles/style.css">
+    <script src="./script/script.js"></script>
+</head>
+
+<body>
+    <header></header>
+    <main class="main-body">
+
+        <section class="form-val">
+            <!-- <div class="title">
+                <h3>Inscription</h3>
+            </div> -->
+            <form action="" class="form-layout">
+                <div class="container">
+                    <input class="text-inp" type="text" name="firstName" id="firstName" placeholder="Name">
+                    <input type="text" class="text-inp" name="lastName" id="lastName" placeholder="Last Name">
+                </div>
+
+                <div class="container">
+                    <textarea name="Adress" class="text-inp" id="adress" rows="4" placeholder="Adress"></textarea>
+                </div>
+                <div class="container">
+                    <input type="email" class="text-inp" name="mail" id="mail" placeholder="@mail">
+                    <input type="text" class="text-inp" name="phoneNumer" id="phoneNumer" placeholder="Phone Number">
+                </div>
+
+                <div class="container">
+                    <input type="password" class="text-inp" name="userPwd" id="userPwd" placeholder="Password">
+                    <input type="password" class="text-inp" name="userPwd" id="userPwd"
+                        placeholder="Repeat your Password">
+                </div>
+                <div class="container">
+                    <input type="reset" value="Reset" class="button" id="btn-reset" />
+                    <button class="button" id="validate" onclick="validate()">validate</button>
+
+                </div>
+
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>
