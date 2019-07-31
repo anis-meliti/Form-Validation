@@ -16,36 +16,29 @@
             <h3>INSCRIPTION</h3>
 
         </div>
-
         <section class="form-val">
-
-            <!--  onsubmit="https://anis-meliti.github.io/Shopping-cart/"
-                 -->
-            <form class="form-layout">
+            <form class="form-layout" id="regForm" action="#">
                 <div class="container">
                     <input class="text-inp" type="text" name="firstName" id="firstName" placeholder="Name...">
                     <input type="text" class="text-inp" name="lastName" id="lastName" placeholder="Last Name...">
                 </div>
-
                 <div class="container">
                     <textarea name="Adress" class="text-inp" id="adress" rows="4" placeholder="Adress..."></textarea>
                 </div>
                 <div class="container">
-                    <input type="email" class="text-inp" name="mail" id="mail" placeholder="@mail...">
-                    <input type="text" class="text-inp" name="phoneNumer" id="phoneNumer" placeholder="Phone Number...">
+                    <input type="text" class="text-inp" name="mail" id="mail" placeholder="@mail...">
+                    <input type="text" class="text-inp" name="phoneNumber" id="phoneNumber"
+                        placeholder="Phone Number...">
                 </div>
-
                 <div class="container">
                     <input type="password" class="text-inp" name="userPwd" id="userPwd" placeholder="Password...">
-                    <input type="password" class="text-inp" name="userPwd" id="userPwdConfirm"
+                    <input type="password" class="text-inp" name="userPwdConfirm" id="userPwdConfirm"
                         placeholder="Repeat your Password...">
                 </div>
-            </form>
-            <div class="container">
-                <input type="reset" value="Reset" class="button" id="btn-reset" />
-                <button class="button" id="validate" onclick="validat()">validate</button>
-            </div>
-
+                <div class="container">
+                    <input type="reset" value="Reset" class="button" id="btn-reset" />
+                    <button id="val" class="button" onclick="validate()">validate</button>
+                </div>
             </form>
         </section>
     </main>
